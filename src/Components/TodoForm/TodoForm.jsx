@@ -43,7 +43,7 @@ class TodoForm extends Component {
                 fullWidth
                 type="submit"
                 variant="contained"
-                color="primary"
+                color="secondary"
                 size="large"
               >
                 Add Todo

@@ -19,7 +19,7 @@ class TodoList extends Component {
     items.length === 0
       ? (listItem = (
           <div className={styles.nothing}>
-            <Paper elevation={6} style={{padding: "2rem", color: "#cecece"}}>
+            <Paper elevation={6} style={{ padding: "2rem", color: "gray" }} className={styles.todo}>
               <h1>Nothing to display :(</h1>
             </Paper>
           </div>
@@ -31,7 +31,11 @@ class TodoList extends Component {
               style={{ marginTop: "2rem" }}
               key={item.key}
             >
-              <Paper elevation={4} style={{ padding: "1rem" }}>
+              <Paper
+              className={styles.todo}
+                elevation={6}
+                style={{ padding: "1rem"}}
+              >
                 <Grid
                   container
                   direction="row"
@@ -75,7 +79,7 @@ class TodoList extends Component {
                     <Button
                       style={{ flexGrow: 1 }}
                       variant="contained"
-                      color="default"
+                      color="secondary"
                       size="small"
                       onClick={() => this.props.delete(index)}
                     >
