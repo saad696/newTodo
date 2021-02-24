@@ -1,5 +1,5 @@
 # How this works
-<img src="https://github.com/saad696/newTodo/blob/master/todo.png" width=300/>
+<img src="https://github.com/saad696/newTodo/blob/master/todo.png" width=1080/>
 
 # Getting Started with Create React App
 
