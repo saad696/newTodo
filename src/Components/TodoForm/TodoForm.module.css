@@ -1,0 +1,15 @@
+.outerGrid{
+    position: relative;
+    top: 3rem;
+}
+
+.lists{
+    text-align: center;
+    margin-top: 5rem
+}
+
+@media (min-width: 900px){
+    .outerGrid{
+        padding: 0 10rem;
+    }
+}
